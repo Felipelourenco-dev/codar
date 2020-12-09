@@ -47,6 +47,7 @@
     .destaque__button {
       width: 300px;
       font-size: 16px;
+      height: 50px;
     }
 
     .destaque__img {
@@ -92,7 +93,7 @@
     .beneficios__button {
 
         width: 200px;
-        height: 40px;
+        height: 50px;
 
     }
 
