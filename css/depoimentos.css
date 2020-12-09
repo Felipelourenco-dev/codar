@@ -1,0 +1,57 @@
+
+
+.depoimentos {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.depoimentos__retangulo {
+    background: #D8DCD6;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+    width: 500px;
+    
+
+    text-align: justify;
+
+}
+
+.depoimentos__retangulo-2 {
+
+    background: #D8DCD6;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+    
+    width: 500px;
+
+    text-align: justify;
+
+}
+
+.depoimentos__foto {
+    background: red;
+    width: 130px;
+    height: 75px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.depoimentos__texto-p {
+
+    line-height: 2px;
+    
+}
+
+.depoimentos__texto-p:last-child {
+
+    font-weight: bold;
+}
+

@@ -1,0 +1,69 @@
+/* BENEFICIOS */
+
+.beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 230px;
+}
+
+.beneficios__itens {
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+    align-items: center;
+   
+}
+
+.icon {
+    margin-right: 5px;
+    line-height: 10px;
+    color: #D6000D;
+}
+
+.beneficios__logo {
+
+    width: 500px;
+    height: auto;
+
+}
+
+    
+.beneficios__img {
+
+    max-width: 500px;
+}
+
+/* Beneficio Contato */
+
+.beneficios__contato {
+    margin-left: 420px;
+    line-height: 0px;
+}
+
+.beneficios__input {
+    background: #D8DCD6;
+    border:none;
+    border-radius: 10px;
+    margin-right: 10px;
+
+    width: 180px;
+    height: 20px;
+    padding: 8px;
+
+
+}
+
+.beneficios__button {
+    border-style: none;
+    border-radius: 10px;
+    background: #D6000D;
+
+    width: 200px;
+    height: 34px;
+    padding: 6px;
+
+    color: #fdfdfd;
+    font-size: 14px;
+    cursor: pointer;
+}

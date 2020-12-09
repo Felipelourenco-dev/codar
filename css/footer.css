@@ -1,0 +1,40 @@
+.rodape {
+    background: black;
+    color: white;
+
+    height: 250px;
+    padding: 10px;
+    padding-top: 100px;
+    margin-top : 70px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__container {
+
+    display: flex;
+}
+
+.rodape__icons {
+    display: flex;
+}
+
+.rodape__img {
+    max-width: 50px;
+    color: red;
+    width: 25px;
+    margin-right: 10px;
+
+
+}
+
+.rodape h1 {
+    
+    font-style: italic;
+    line-height: 0;
+}
+
+.rodape__sobre p {
+    line-height: 0;
+}

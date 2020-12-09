@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    padding-top: 0;
+}
+
+.header__logo-h1 {
+    color: #D6000D;
+    font-style: italic;
+}
+
+.header__logo {
+   
+    display: flex;
+    
+}
+
+
+.menu__lista {
+    display: flex;
+    align-items: center;
+}
+
+.menu__itens {
+   margin-right: 13px;
+   list-style: none;
+   cursor: pointer;
+}
+
+.menu__itens:hover {
+    color: #D6000D;
+}
+
+.menu__intes:active {
+    color: #D6000D;
+}
+
+.menu__button {
+    border-style: none;
+    border-radius: 10px;
+    background: #D6000D;
+    width: 120px;
+    padding: 6px;
+    color: #fdfdfd;
+    cursor: pointer;
+}
+
+.menu__button:hover {
+    background: #6d0d13;
+    
+}

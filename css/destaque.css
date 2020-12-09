@@ -1,0 +1,50 @@
+/* DESTAQUE CONTAINER*/
+
+.destaque {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-top: 100px;
+}
+
+.destaque__logo {
+    
+    height: auto;
+    overflow: hidden;
+   
+}
+
+.destaque__img {
+
+    max-width: 500px;
+
+}
+
+/* TEXTO DESTAQUE */
+
+.destaque__h3 {
+    line-height: 0px;
+}
+
+.destaque__h1 {
+    color: #D6000D;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 0px;
+}
+
+.destaque__button {
+
+    border-style: none;
+    border-radius: 10px;
+    background: #D6000D;
+
+    width: 250px;
+    height: 40px;
+    padding: 6px;
+
+    color: #fdfdfd;
+    font-size: 14px;
+    cursor: pointer;
+}

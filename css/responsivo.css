@@ -1,0 +1,151 @@
+@media (max-width: 995px) {
+    /*  MENU DE NAVEGAÇÃO */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        
+    }
+
+    .header__logo {
+        font-size: 40px;
+        line-height: 0px;
+    }
+
+    .menu__itens {
+        font-size: 20px;
+        margin-right: 45px;
+    }
+
+   
+
+    .menu__button {
+        display: none;
+    }
+
+/* DESTAQUE PRINCIPAL */
+
+    .destaque {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+
+    }
+
+    .destaque__texto {
+        padding-top: 20px;
+        text-align: center;
+        
+    }
+
+    .destaque__h1 {
+        font-size: 43px;
+        padding-bottom: 20px;
+    }
+
+    .destaque__button {
+      width: 300px;
+      font-size: 16px;
+    }
+
+    .destaque__img {
+        max-width: 300px;
+    }
+
+    /* BENEFICIOS */
+
+    .beneficios {
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+
+    .beneficios__logo {
+
+        width: 300px;
+    }
+
+    .beneficios__img {
+        max-width: 290px;
+        
+    }
+
+    /* CONTATO INPUT */
+
+    .beneficios__contato {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        }
+
+    .beneficios__input {
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+
+        width: 200px;
+        height: 30px;
+    }
+
+    .beneficios__button {
+
+        width: 200px;
+        height: 40px;
+
+    }
+
+    /* DEPOIMENTOS */
+
+    .depoimentos {
+        flex-direction: column;
+        padding-top: 130px;
+        align-items: center;
+    }
+
+    .depoimentos__retangulo {
+        width: 260px;
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: end;
+    }
+
+    .depoimentos__retangulo-2 {
+        width: 260px;
+        margin: 0;
+        text-align: end;
+    }
+
+    .depoimentos__foto {
+        width: 215px;
+        height: 70px;
+    }
+
+    /* RODAPÉ */
+
+    .rodape {
+
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .rodape h1 {
+        font-size: 50px;
+        font-style: italic;
+        line-height: 0;
+    }
+
+    .rodape__sobre p {
+        line-height: 0;
+    }
+
+    .rodape__img {
+        margin-right: 15px;
+    }
+}
