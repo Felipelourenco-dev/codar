@@ -37,7 +37,11 @@
 }
 
 .depoimentos__foto {
-    background: red;
+    background:url(../assets/eu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
     width: 130px;
     height: 75px;
     border-radius: 100%;
