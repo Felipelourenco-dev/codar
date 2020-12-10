@@ -42,10 +42,15 @@
     background-size: cover;
     background-position: center;
 
-    width: 130px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
     margin-right: 10px;
+}
+
+.depoimentos__texto {
+    display: block;
+    width: 80%;
 }
 
 .depoimentos__texto-p {

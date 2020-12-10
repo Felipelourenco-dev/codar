@@ -119,8 +119,13 @@
     }
 
     .depoimentos__foto {
-        width: 215px;
-        height: 70px;
+        width: 110px;
+        height: 85px;
+    }
+
+    .depoimento__texto {
+
+        width: 60px;
     }
 
     /* RODAPÉ */
